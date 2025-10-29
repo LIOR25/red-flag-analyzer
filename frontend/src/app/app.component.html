@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>❤️‍🔥 Red Flag Analyzer</h1>
+  <p class="subtitle">Paste your bio or text and let AI judge your dating vibes 🚩</p>
+
+  <textarea [(ngModel)]="userText" placeholder="Example: I love crypto, gym, and podcasts about mindset."></textarea>
+
+  <div class="controls">
+    <label for="level">Roast Intensity:</label>
+    <select id="level" class="roast-level-select" [(ngModel)]="level">
+      <option value="Playful">Playful</option>
+      <option value="Brutal">Brutal</option>
+    </select>
+
+    <button (click)="analyzeText()" [disabled]="loading">
+      {{ loading ? 'Analyzing...' : 'Analyze 🚩' }}
+    </button>
+  </div>
+
+  <div class="result" *ngIf="result">
+    <h3>AI Verdict</h3>
+    <p>{{ result }}</p>
+  </div>
+</div>
