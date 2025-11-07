@@ -3,7 +3,11 @@
 Let AI roast your dating profile bio. Paste your text and get an instant analysis of your dating vibes, complete with a red flag score, funny comments, and even a few green flags.
 
  
-*(Replace this with a real screenshot of your app!)*
+
+
+https://github.com/user-attachments/assets/2a766d97-0395-45f2-9d5a-0b4f42795b6d
+
+
 
 ---
 
